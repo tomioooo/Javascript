@@ -1,4 +1,5 @@
 const funcoesMatematicas = require('./funcoes_matematicas');
+const calculadora_idade = require('./calculadora_idade');
 
 // Exemplo de uso:
 const resultadoSoma = funcoesMatematicas.somar(5, 3);
@@ -13,5 +14,4 @@ console.log(`Resultado da multiplicação: ${resultadoMultiplicacao}`);
 const resultadoDivisao = funcoesMatematicas.dividir(20, 5);
 console.log(`Resultado da divisão: ${resultadoDivisao}`);
 
-const resultadoIdade = funcoesMatematicas.idade(2025, 2008);
-console.log(`Idade calculada: ${resultadoIdade}`);
+console.log(calculadora_idade.idade("Tomio", 2008));
