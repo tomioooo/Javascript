@@ -1,5 +1,7 @@
-const funcoesMatematicas = require('./funcoes_matematicas');
-const calculadora_idade = require('./calculadora_idade');
+//const funcoesMatematicas = require('./funcoes_matematicas');
+//const calculadora_idade = require('./calculadora_idade');
+import * as funcoesMatematicas from './funcoes_matematicas.js';
+import * as calculadora_idade from './calculadora_idade.js';
 
 // Exemplo de uso:
 const resultadoSoma = funcoesMatematicas.somar(5, 3);
